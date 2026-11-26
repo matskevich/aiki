@@ -24,3 +24,9 @@ effect. a repository being synchronized does not establish a working runtime.
 the first independent installation and first composition still need their own
 sanitized receipts. do not represent personal deployment evidence as broad
 recipient support.
+
+the working name is now aiki: your personal agi, a modular agent harness for your
+own life. the former pagi repository name redirects here. the
+[three-space development model](development-model.md) is documented.
+shared-lab access, personal-profile extraction and a weekly promotion service are
+not installed or authorized by that design alone.

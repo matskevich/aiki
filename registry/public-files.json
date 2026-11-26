@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "scope": "tracked files of the public hub only; not a private source export policy",
+  "allowed": [
+    "README.md", "AGENTS.md", "CONTRIBUTING.md", "LICENSE", ".gitignore",
+    ".github/workflows/check.yml", "docs/*.md", "docs/views/*.md",
+    "registry/*.json", "tools/*.py", "tests/*.py", "examples/*.json"
+  ]
+}

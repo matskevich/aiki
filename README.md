@@ -1,10 +1,10 @@
-# pagi
+# aiki
 
-**personal agi, piece by piece.**
+**your personal agi.**
 
-a modular agent harness for your own accounts, devices and agents.
+a modular agent harness for your own life.
 
-pagi is a way to assemble a personal agent system around useful outcomes: find
+aiki is a way to assemble a personal agent system around useful outcomes: find
 something in your messages, arrange a meeting, keep a task through a disconnect,
 or return with a verified result. start with one component and keep your current
 agent client. add context, tools, coordination and devices when the outcome needs
@@ -40,6 +40,7 @@ flowchart LR
 | deploy, observe, update or recover it | [infrastructure view](docs/views/infrastructure.md) |
 | let an agent navigate or contribute | [agent entry](AGENTS.md) and [agent operating guide](docs/agents.md) |
 | choose a component for your own setup | [component map](docs/components.md) and [adoption guide](docs/adoption.md) |
+| understand private development, personal profiles and public releases | [development model](docs/development-model.md) |
 
 ## the pieces
 
@@ -82,7 +83,7 @@ interfaces without claiming every linked implementation already conforms.
 
 ## build in the open without exporting a private life
 
-pagi publishes new general documentation, schemas, synthetic examples and small
+aiki publishes new general documentation, schemas, synthetic examples and small
 inspection tools. private correspondence, relationship models, real task records,
 sessions, account identifiers and deployment credentials belong to each person's
 installation. components keep their own maintainers, histories and licenses.

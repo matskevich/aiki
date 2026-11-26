@@ -1,6 +1,6 @@
 {
   "example_only": true,
-  "schema": "pagi-task-concept/v1",
+  "schema": "aiki-task-concept/v1",
   "task_id": "example-task-001",
   "intent_revision": 1,
   "goal": "find the agreed time in an authorized conversation",
