@@ -53,6 +53,7 @@ owner. private development and preview/public delivery share one source, with a 
 profile rather than another implementation fork. recipient access and future
 schedules require their own actual acceptance.
 
-for friends onboarding or a channel change, read `docs/friends.md`. preserve
-accepted installations and distinguish a recipe for their own implementation
-from delivery of an actual maintained runtime. verify access before redirecting.
+for friends onboarding or a channel change, read `docs/friends.md`. explain and
+share existing implemented work only. capture missing capabilities as feedback,
+not custom-development commitments. close a bounded answer or success report
+without automatically assigning the next module, test or report.
