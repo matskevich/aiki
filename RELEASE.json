@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "product": "aiki",
+  "channel": "public",
+  "version": "0.1.0",
+  "content_sha256": "840e94884ec9676cab8c35acfc948aaa2cc6151707382010cd9ccdf4686feccd",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/reality-case.yml",
+      "sha256": "c3c88c86e5de11ebf4d4c56485facaba49202a6374d106e756a2faae51900f84",
+      "executable": false
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "sha256": "3f7293e70accdeb25ebe06d2556f7680962fb1c55b268ea9c7137450634eb032",
+      "executable": false
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9ea09b90ee4ecb7ca3217594391e77a62a29a99637a69d4b228d31027a04e9d9",
+      "executable": false
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "1b5ad433050a8d4410b06ca56167ce797c3ec9242f28a2e1bf114981222bd611",
+      "executable": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "a0d1f43cb668fb7428b10eb1a738946b474e5e7d2715b65aadfea647e902237f",
+      "executable": false
+    },
+    {
+      "path": "CURRENT.md",
+      "sha256": "775b3ac61f26e3d3e16f1aa400fae473216c1cba12f6eda4fa7b057f0ea7eef1",
+      "executable": false
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "f56c7b3b4cd9f2de1dda36ebb8c3a09d57938020d0f20ab3c599aafb4cf2cc16",
+      "executable": false
+    },
+    {
+      "path": "PRODUCT.md",
+      "sha256": "c0925a2b81ef5277a83cf3a0d3b4a9c00b58eb5e992c9f1dd36075704859260b",
+      "executable": false
+    },
+    {
+      "path": "README.md",
+      "sha256": "a58368ea639fe57aa6476b45212ac0e9034b62efafffbc4c8c2ea703065e18c6",
+      "executable": false
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "4bc69f2c117d7fc9b943ab0706c6f4c3f49f4680034b859c409aa2cd86c079da",
+      "executable": false
+    },
+    {
+      "path": "docs/adoption.md",
+      "sha256": "3cddf3edb9bd0d6c05bdde5c34d0facf47ce76d810e84fb68b750dc9596dce7d",
+      "executable": false
+    },
+    {
+      "path": "docs/agents.md",
+      "sha256": "bb12271cd25e36d724ff336f2b5b00e5d5db5574eb23fad991a191e102a65bbc",
+      "executable": false
+    },
+    {
+      "path": "docs/components.md",
+      "sha256": "a336c2cbbce94e559ad2179fce2fbf6d5b7b44e5f598a24a566f3296d7501985",
+      "executable": false
+    },
+    {
+      "path": "docs/contracts.md",
+      "sha256": "c37c80fd6756c52a952474fd202b37fef739f2073e3a2dab90cbbcc77cae2941",
+      "executable": false
+    },
+    {
+      "path": "docs/development-model.md",
+      "sha256": "7bbc5e1525792fcc68c5a745eb7ece7eaf2126632a9d07eb93118183e4ee3d60",
+      "executable": false
+    },
+    {
+      "path": "docs/releasing.md",
+      "sha256": "42e97208f219e4d946df0e35d6647e72d085dd8f0ccd3791024939ab82ba7467",
+      "executable": false
+    },
+    {
+      "path": "docs/roadmap.md",
+      "sha256": "88e8f7a7374a0e5f501bba308209a968fe8d570ca1666aa45b930a9e8ebe4c66",
+      "executable": false
+    },
+    {
+      "path": "docs/shared-skills.md",
+      "sha256": "c55845de9ad400d61f95ddc87181aa60b68f358d6bce414c55ce3d2d4aaa4c43",
+      "executable": false
+    },
+    {
+      "path": "docs/status.md",
+      "sha256": "17e8bc37d9efbef3cd920b920d82aa9fdbd302c2078534f042544a63121085b6",
+      "executable": false
+    },
+    {
+      "path": "docs/views/functional.md",
+      "sha256": "7233acb5075595837b816c6fd519646df7432ab84ecbbe1f02d757e60a6e5356",
+      "executable": false
+    },
+    {
+      "path": "docs/views/infrastructure.md",
+      "sha256": "45234d5d705c6897cbc9ae7f97ac2a966a132fdfb7621b01c5456944d9c41cee",
+      "executable": false
+    },
+    {
+      "path": "docs/views/product.md",
+      "sha256": "9f950b7028ba00b48855051be9d80f5d259aa0801d06ea3189221727ed15a144",
+      "executable": false
+    },
+    {
+      "path": "docs/views/technical.md",
+      "sha256": "bdec1358eff5ba8d3db8fa1054c1c41e7253a9a1e5c6201042d435bc3c636560",
+      "executable": false
+    },
+    {
+      "path": "docs/views/usability.md",
+      "sha256": "a5b6c54d0986041cb259c9ff28062fbe122da8256949e6fd182a77347285f5e1",
+      "executable": false
+    },
+    {
+      "path": "examples/acceptance.json",
+      "sha256": "a4a3abfbb2c2cf9eb1c92562e787c878f3e51555e45d0d911dd928d85e81fc4f",
+      "executable": false
+    },
+    {
+      "path": "examples/handoff.json",
+      "sha256": "00f7b72c6af65041c1a4ad86b530a14a60c0cd4b408f37f17b1d5c4cf60181c1",
+      "executable": false
+    },
+    {
+      "path": "examples/learning-record.json",
+      "sha256": "c29119bdf304c41fdfead99a25b987e85fd8ccd870999ef8df45021df64a37d4",
+      "executable": false
+    },
+    {
+      "path": "examples/task.json",
+      "sha256": "68b20d59ac882b1b2dc42582f34a00b576edeef7dfec7e09a5db7d7dc03e0e6a",
+      "executable": false
+    },
+    {
+      "path": "registry/components.json",
+      "sha256": "ede0698c4fa01c9dfa9038eee43cdbccc856709f2c98106f99edb965ee9da719",
+      "executable": false
+    },
+    {
+      "path": "registry/public-files.json",
+      "sha256": "bb923b373ede273f23d181ef83d884a4743b04dfa0f521301c70df6a7a9ab5e7",
+      "executable": false
+    },
+    {
+      "path": "skills/attention-and-authority/SKILL.md",
+      "sha256": "83625d4af21af5bd748bb14e7cf446a35aadc9a3a4c914628890b672b6915646",
+      "executable": false
+    },
+    {
+      "path": "skills/outcome-continuity/SKILL.md",
+      "sha256": "3c1e6c8b11309a8c29af521270f4243ca0ee0a5dd67f2dc73af070f939a015e5",
+      "executable": false
+    },
+    {
+      "path": "skills/reality-learning/SKILL.md",
+      "sha256": "df822d68610c9d47a866afaa1ee027eae2401ad5b22ee4f1c03d77607bce4242",
+      "executable": false
+    },
+    {
+      "path": "tests/test_catalog.py",
+      "sha256": "bdaf67e019e0083d2afe407b9a34392d868a15a51b2acfe5444b13a926e4b73d",
+      "executable": false
+    },
+    {
+      "path": "tests/test_release_check.py",
+      "sha256": "e94b2fc174fb76dffb42a4e20735bfae896348e452fb9220b5b8a625b096321e",
+      "executable": false
+    },
+    {
+      "path": "tests/test_release_manifest.py",
+      "sha256": "bb08651783a2842f11dd1aad0981b062114b0ac1287216a41955caa07465be08",
+      "executable": false
+    },
+    {
+      "path": "tests/test_secret_scan.py",
+      "sha256": "91901d9cfb32a649e031b325fc8c543571cfb2f5aaffdc21e1506388a403a48f",
+      "executable": false
+    },
+    {
+      "path": "tools/catalog.py",
+      "sha256": "158f726ae420493295978ed15ac3ce32f4f615fddc4641fdf91a92ff37068318",
+      "executable": false
+    },
+    {
+      "path": "tools/product_context.py",
+      "sha256": "0011f39427f78f56fb21e300559098abffc112eab8d267888eafe37a1e7e8639",
+      "executable": false
+    },
+    {
+      "path": "tools/release_check.py",
+      "sha256": "2712256b9c4c097dd6c06d0034a6c6ab6bfc12868a97600c45dae41cca3476de",
+      "executable": false
+    },
+    {
+      "path": "tools/release_manifest.py",
+      "sha256": "1992bbba60a8e0d676a4440f668debd581f3d2e0b3e3066e02bd2671f6b21f45",
+      "executable": false
+    },
+    {
+      "path": "tools/secret_scan.py",
+      "sha256": "7dd117d895c6eafb023dcef7786459e1f48a289cbf7be84761a822919d3f096a",
+      "executable": false
+    }
+  ],
+  "scope": "product context, catalog, portable skills and synthetic examples"
+}

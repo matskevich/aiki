@@ -175,15 +175,21 @@
       "title": "context retrieval and working conventions",
       "role": "policy",
       "source": {
-        "repository": "https://github.com/matskevich/dima-ops",
+        "repository": "https://github.com/matskevich/agent-connectors",
         "visibility": "private"
       },
       "requires": [],
       "optional": [],
-      "packaging": "implementation-specific; independent packaging not verified",
+      "packaging": "three portable skill folders in this delivery; load into your own compatible agent",
       "independent_acceptance": "not_verified",
       "live_status": "not_checked",
-      "recipe": "docs/adoption.md"
+      "recipe": "docs/shared-skills.md",
+      "distribution": {
+        "repository": "https://github.com/matskevich/aiki",
+        "path": "skills/",
+        "license": "MIT",
+        "scope": "new generic portable packages only; personal operational skills keep their sources"
+      }
     },
     {
       "id": "operations",

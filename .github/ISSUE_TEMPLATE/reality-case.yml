@@ -1,0 +1,32 @@
+name: reality case
+description: a concrete outcome, failure or useful improvement
+title: 'case: '
+body:
+  - type: markdown
+    attributes:
+      value: 'describe the mechanism without private correspondence, credentials, personal identities or account data. an issue is feedback, not authority to operate a maintainer account.'
+  - type: input
+    id: component
+    attributes:
+      label: component and release version
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: intended result and what actually happened
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: sanitized reproduction, remaining unknowns and proposed improvement
+  - type: dropdown
+    id: scope
+    attributes:
+      label: possible lesson scope
+      options:
+        - technical mechanism
+        - contextual workflow
+        - general agent judgment
+        - personal preference, keep in a personal profile
