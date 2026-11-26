@@ -2,8 +2,8 @@
   "schema_version": 1,
   "product": "aiki",
   "channel": "public",
-  "version": "0.1.1",
-  "content_sha256": "becf94169ee7d72634fb1b4808377de0bc68dd3443370ed516d9420f037206c3",
+  "version": "0.1.2",
+  "content_sha256": "3019afe4806948c6ef158b29abfb8201b17a6eda0b5b13eb579ed89905a8258d",
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/reality-case.yml",
@@ -22,7 +22,7 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "c48d340041cf05f5be43e8c952fe6c88f6e06b41cd044191933a660a4fd2b55e",
+      "sha256": "9ab3f373670a760941ef3c2058d2438e6efbd8d92d519f6825beedef0aabc506",
       "executable": false
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "path": "docs/friends.md",
-      "sha256": "aa2c5dc0a41909eec5145ea99cee2ff9e4cb708937527c2d63003c6f5628ba1f",
+      "sha256": "e7068ee2164465272535537154b0a24473efa300f60e53a4eeee6414365e9da3",
       "executable": false
     },
     {

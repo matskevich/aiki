@@ -17,10 +17,25 @@ then establish what is actually available for that outcome:
 | contract for a private runtime | explicitly choose to build or connect your own implementation | installing the maintainer's implementation |
 | private implementation without a release | retain the packaging request at its source | another contract makes that code available |
 
-if the recipient asks to use the actual maintained component, record that request
-and resolve its packaging/access boundary. do not silently turn it into an
-unbounded series of instructions for rebuilding the whole system themselves.
-a recipient may deliberately choose their own implementation; preserve that choice.
+## support boundary and stopping
+
+friends can ask about what we have actually implemented. explain the existing
+mechanism and share only a currently releasable skill, package, recipe or contract.
+this channel is not custom implementation, product consulting or a project to
+build the recipient's system. an architecture explanation does not authorize
+coding their integration or inventing a module we have not implemented.
+
+when a requested module is absent, say so plainly, capture the need once as
+feedback and end that exchange. an issue is an input to our own roadmap, not a
+promise to implement, package, install or support it for that person. do not
+convert the gap into assignments for the recipient or their agent.
+
+when the bounded question has been answered or the recipient reports success,
+close at that scope. do not automatically propose another module, test, report
+or question. acknowledgements and test receipts do not need another task. an
+agent-to-agent exchange must not sustain itself by generating its next assignment.
+new substantive questions may get bounded answers about existing work; collecting
+a case remains useful even when no implementation follows.
 
 ## feedback and updates
 
@@ -29,8 +44,9 @@ example when available. feedback may stay in the existing dialogue; the maintain
 can turn it into a sanitized issue without asking for a second report. never paste
 credentials, private transcripts or another person's data into an issue.
 
-connect issue, owning source change, delivery version and the recipient's next
-comparable outcome. an issue acknowledgement is not a fix. preview may carry
+when our own roadmap produces a change, connect its issue, owning source and
+delivery version. optional recipient experience can inform acceptance; do not
+create a reporting obligation. an issue acknowledgement is not a fix. preview may carry
 unfinished reusable experiments with clear limitations; stable promotion requires
 the scenario, license and privacy checks. do not invent a response-time promise
 or claim automatic issue handling before a consumer has actually been accepted.
