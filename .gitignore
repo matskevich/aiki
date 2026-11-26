@@ -1,0 +1,12 @@
+.private/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.sqlite*
+*.session*
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "example_only": true,
+  "schema": "pagi-handoff-concept/v1",
+  "parent_task_id": "example-task-002",
+  "intent_revision": 1,
+  "stage_id": "example-stage-001",
+  "state": "effect_unknown",
+  "authority_source": "synthetic owner mandate for one exact prepared action",
+  "known_effects": [],
+  "unknown_effects": [
+    {
+      "operation_id": "example-operation-001",
+      "state": "dispatched_response_lost",
+      "target_ref": "https://example.invalid/resource/one"
+    }
+  ],
+  "accountable_executor": "example-coordinator",
+  "next_decision": "read the existing operation and target before any retry",
+  "may_repeat_write": false
+}

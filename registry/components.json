@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-26",
+  "dependency_semantics": "required capability dependencies, not a package import graph",
+  "status": "documentation_and_catalog_release",
+  "components": [
+    {
+      "id": "telegram",
+      "title": "telegram reads and guarded actions",
+      "role": "provider",
+      "source": {
+        "repository": "https://github.com/matskevich/tg-mcp-guarded",
+        "visibility": "public"
+      },
+      "requires": [],
+      "optional": [
+        "conversation",
+        "tasks"
+      ],
+      "packaging": "public provider; use its own installation recipe",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "whatsapp",
+      "title": "whatsapp message context",
+      "role": "provider",
+      "source": {
+        "repository": "https://github.com/matskevich/whatsapp-mcp",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "conversation",
+        "tasks"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "catalog",
+      "title": "versioned capability discovery",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "browser",
+      "title": "authorized existing browser",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "tasks"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "android",
+      "title": "bound mobile device",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "tasks",
+        "payments"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "tasks",
+      "title": "durable task state and local execution",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "orchestration",
+        "conversation"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "orchestration",
+      "title": "server and device coordination",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [
+        "tasks"
+      ],
+      "optional": [
+        "browser",
+        "android",
+        "watches"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "watches",
+      "title": "source observations and continuations",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [
+        "tasks"
+      ],
+      "optional": [
+        "orchestration"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "conversation",
+      "title": "conversation and task binding",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [
+        "tasks"
+      ],
+      "optional": [
+        "telegram",
+        "whatsapp",
+        "voice"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "context-skills",
+      "title": "context retrieval and working conventions",
+      "role": "policy",
+      "source": {
+        "repository": "https://github.com/matskevich/dima-ops",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "operations",
+      "title": "delegated operational follow-through",
+      "role": "policy",
+      "source": {
+        "repository": "https://github.com/matskevich/dima-ops",
+        "visibility": "private"
+      },
+      "requires": [
+        "context-skills"
+      ],
+      "optional": [
+        "telegram",
+        "whatsapp",
+        "tasks"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "notifications",
+      "title": "owner attention and exact reply binding",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [
+        "tasks"
+      ],
+      "optional": [],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "linear",
+      "title": "canonical task projection",
+      "role": "projection",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [
+        "tasks"
+      ],
+      "optional": [
+        "operations",
+        "content"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "payments",
+      "title": "payment route and authority decisions",
+      "role": "policy",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [
+        "context-skills"
+      ],
+      "optional": [
+        "browser",
+        "android",
+        "tasks"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "voice",
+      "title": "speech intake and output interfaces",
+      "role": "runtime",
+      "source": {
+        "repository": "https://github.com/matskevich/agent-connectors",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "conversation"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "media",
+      "title": "media preparation and device bridge",
+      "role": "provider",
+      "source": {
+        "repository": "https://github.com/matskevich/bali-transcript-mcp",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "browser",
+        "tasks"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "credentials",
+      "title": "scoped credential runtime conventions",
+      "role": "infrastructure",
+      "source": {
+        "repository": "https://github.com/matskevich/meta",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    },
+    {
+      "id": "content",
+      "title": "content production domain consumer",
+      "role": "domain",
+      "source": {
+        "repository": "https://github.com/matskevich/contentOS",
+        "visibility": "private"
+      },
+      "requires": [],
+      "optional": [
+        "tasks",
+        "media",
+        "operations"
+      ],
+      "packaging": "implementation-specific; independent packaging not verified",
+      "independent_acceptance": "not_verified",
+      "live_status": "not_checked",
+      "recipe": "docs/adoption.md"
+    }
+  ]
+}
