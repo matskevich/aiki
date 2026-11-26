@@ -9,12 +9,12 @@ starting point for adoption and contribution.
 ## next accepted outcomes
 
 1. one independent installation of an available component, with a sanitized
-   receipt for useful operation, restart, upgrade and rollback;
+   receipt for useful operation, restart, upgrade and rollback.
 2. a clean public export of a selected private implementation, after ownership,
-   license, dependencies and historical-data review;
+   license, dependencies and historical-data review.
 3. one accepted composition across two components, including lost-response
-   recovery and exact task/operation identity;
-4. versioned compatibility and release manifests derived from those outcomes;
+   recovery and exact task/operation identity.
+4. versioned compatibility and release manifests derived from those outcomes.
 5. better setup and explanation based on optional, source-backed user feedback.
 
 choose the next component from a real person's useful scenario. browser reading

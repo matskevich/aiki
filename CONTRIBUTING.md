@@ -11,5 +11,5 @@ result, restart and rollback evidence from its intended consumer.
 
 use synthetic examples and retain private feedback in its originating case.
 never attach credentials, sessions, real correspondence or personal task data.
-new contributions to this repository use its mit license; third-party material
+new contributions to this repository use its mit license. third-party material
 must preserve its original license and attribution.

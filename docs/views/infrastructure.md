@@ -16,11 +16,11 @@ restore receipts for those resources.
 
 ## release and recovery
 
-1. identify consumers, source versions and the currently working route;
-2. prepare an isolated versioned artifact and retain a verified rollback;
-3. validate source and packaging without changing the service environment;
-4. update the intended consumer through its normal launcher;
-5. verify an actual authorized operation and independent readback;
+1. identify consumers, source versions and the currently working route.
+2. prepare an isolated versioned artifact and retain a verified rollback.
+3. validate source and packaging without changing the service environment.
+4. update the intended consumer through its normal launcher.
+5. verify an actual authorized operation and independent readback.
 6. test restart, reconnect and a cold start when unattended use requires it.
 
 source-only success is `source_checked`. do not close a consumer release from a
@@ -39,7 +39,7 @@ update saved clients and verify a real consumer, not only the secret store.
 use deterministic source reads, cursors and change detection while waiting.
 start reasoning when evidence requires a decision. retries, model budgets and
 notification policy are separate controls. bound provider backoff and retain an
-armed continuation; a written “check later” is not a working wake-up mechanism.
+armed continuation. a written “check later” is not a working wake-up mechanism.
 
 ## source synchronization
 
@@ -47,5 +47,5 @@ inventory all registered worktrees and installed source projections. compare
 against fresh remote heads, then check patch equivalence before declaring code
 missing. preserve reviewed work on isolated branches. reconcile divergent versions
 through scoped changes and tests. verify the remote sha after push. recover files
-from their actual host; an absent server snapshot does not establish absence on
+from their actual host. an absent server snapshot does not establish absence on
 the source computer.

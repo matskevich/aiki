@@ -1,7 +1,7 @@
 # component map
 
 the catalog separates reusable runtime, provider, policy, projection and domain
-roles. a layer can have multiple implementations; the links name the current
+roles. a layer can have multiple implementations. the links name the current
 source owners rather than a mandatory stack.
 
 | component | role | depends on | optional composition |
@@ -30,3 +30,7 @@ import dependency of the current package. shared packaging and independent
 module packaging differ. the owning recipe remains authoritative for actual
 installation requirements. [catalog data](../registry/components.json) records
 this distinction and source visibility explicitly.
+
+optional integrations describe composition patterns. they do not establish current
+provider compatibility. the scoped conversation implementation is telegram-based.
+whatsapp conversation and write-policy parity remain unverified.

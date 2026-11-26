@@ -167,7 +167,8 @@
       "packaging": "implementation-specific; independent packaging not verified",
       "independent_acceptance": "not_verified",
       "live_status": "not_checked",
-      "recipe": "docs/adoption.md"
+      "recipe": "docs/adoption.md",
+      "implementation_notes": "the current scoped personal deployment is telegram-based; whatsapp conversation and write parity are not verified. optional integrations describe composition patterns, not accepted support."
     },
     {
       "id": "context-skills",

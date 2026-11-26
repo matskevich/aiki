@@ -5,9 +5,9 @@ tool count, uptime and model activity are supporting measurements.
 
 ## who it serves
 
-- a person connecting an existing agent to their own accounts and devices;
-- an agent recovering context, choosing a route and completing a delegated task;
-- a builder adopting one component or improving an interface;
+- a person connecting an existing agent to their own accounts and devices.
+- an agent recovering context, choosing a route and completing a delegated task.
+- a builder adopting one component or improving an interface.
 - an operator keeping an installation recoverable across machines and updates.
 
 each adopter has their own credentials, infrastructure and permissions. the
@@ -16,10 +16,10 @@ would need separate account isolation, access control, support and cost design.
 
 ## product shape
 
-1. choose one useful scenario and the smallest sufficient set of pieces;
-2. obtain a working component from its owner and use your own account;
-3. reach one independently verified result;
-4. continue through restart and perform an upgrade with rollback;
+1. choose one useful scenario and the smallest sufficient set of pieces.
+2. obtain a working component from its owner and use your own account.
+3. reach one independently verified result.
+4. continue through restart and perform an upgrade with rollback.
 5. compose a second component when it removes a real limitation.
 
 the public hub makes these boundaries visible. a private source link is not an

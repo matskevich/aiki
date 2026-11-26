@@ -7,11 +7,11 @@ other entries describe existing private implementations or portable patterns.
 
 ## first component
 
-1. read the selected component's source recipe and license;
-2. use your own account, sessions and isolated local state;
-3. verify the intended identity and discover the required operation;
-4. perform one useful authorized read or action and verify its result;
-5. restart and continue without losing state or duplicating an effect;
+1. read the selected component's source recipe and license.
+2. use your own account, sessions and isolated local state.
+3. verify the intended identity and discover the required operation.
+4. perform one useful authorized read or action and verify its result.
+5. restart and continue without losing state or duplicating an effect.
 6. try an isolated upgrade and verify the documented rollback.
 
 for guarded messaging actions, preserve the provider's preview, confirmation,

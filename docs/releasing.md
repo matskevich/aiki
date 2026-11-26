@@ -10,7 +10,7 @@ use a clean tree and deliberate file list. inspect current files and reachable
 history for credentials and personal data. exclude sessions, resolved secrets,
 real task records, health information, private correspondence, account/device
 identifiers and deployment receipts. signature scanning supplements a human
-source review; it cannot prove absence of personal information.
+source review. it cannot prove absence of personal information.
 
 ## component release
 
