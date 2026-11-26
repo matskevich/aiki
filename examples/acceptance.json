@@ -1,0 +1,18 @@
+{
+  "example_only": true,
+  "schema": "pagi-acceptance-concept/v1",
+  "component": "telegram",
+  "artifact": "synthetic-version",
+  "host": "example-personal-host",
+  "client": "example-mcp-client",
+  "source_checked": true,
+  "packaging_checked": true,
+  "account_verified": false,
+  "operation": "synthetic bounded read",
+  "independent_result": "not_run",
+  "restart": "not_run",
+  "upgrade": "not_run",
+  "rollback": "not_run",
+  "independent_acceptance": "not_verified",
+  "limits": ["this synthetic fixture establishes no real account or deployment acceptance"]
+}
