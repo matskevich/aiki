@@ -1,6 +1,6 @@
 {
   "example_only": true,
-  "schema": "pagi-acceptance-concept/v1",
+  "schema": "aiki-acceptance-concept/v1",
   "component": "telegram",
   "artifact": "synthetic-version",
   "host": "example-personal-host",

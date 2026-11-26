@@ -15,7 +15,7 @@ the entire private archive to answer a local question.
 | operate or repair a service | infrastructure view and installation-local receipts | intended consumer works through its real launcher |
 | change code | the owning source repository's instructions | scoped checks and source/deployment/consumer evidence |
 
-pagi owns the common map, generic contracts, dependency metadata and public
+aiki owns the common map, generic contracts, dependency metadata and public
 adoption material. provider implementations remain in their source repositories.
 do not copy a provider here to avoid its review or release process. when a source
 is private or unavailable, preserve that boundary instead of inventing an api or
@@ -45,3 +45,9 @@ claiming an installation.
 the public repository contains no owner task queue, private deployment inventory
 or cross-device credential configuration. an agent in an actual installation
 must recover those from that installation's authorized sources.
+
+for development and learning, read `docs/development-model.md`. distinguish
+personal preferences from transferable mechanisms. raw evidence stays with its
+owner. development and public promotion are separate code lanes, with a personal
+profile rather than another implementation fork. lab access and weekly promotion
+remain proposed until their actual setup is accepted.

@@ -1,0 +1,20 @@
+{
+  "example_only": true,
+  "schema": "aiki-learning-concept/v1",
+  "case_id": "example-courier-handoff",
+  "sharing_scope": "shared_sanitized",
+  "observation": "the provider accepted a collection request, but collection had not happened",
+  "expected_outcome": "parcel collected within the authorized task",
+  "observed_outcome": "request accepted; collection still pending",
+  "hypothesis": "dispatch acknowledgement was treated as the final physical outcome",
+  "candidate": {
+    "scope": "contextual_workflow",
+    "change": "retain the existing operation and observe its next meaningful event",
+    "boundary": "a credible report of completed collection can close that scope without another unnecessary question",
+    "acceptance": "collection established without a duplicate dispatch"
+  },
+  "personal_profile": "not_exported",
+  "raw_evidence": "retained_by_originating_owner",
+  "maturity": "candidate",
+  "public_status": "not_released"
+}

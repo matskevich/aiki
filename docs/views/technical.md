@@ -35,7 +35,7 @@ should not erase the canonical task or justify a second executor.
 
 providers keep their repositories and releases. agent-connectors owns common
 adapters and runtimes. operations conventions and domain work keep their own
-sources. pagi owns common navigation, cross-component contracts and public
+sources. aiki owns common navigation, cross-component contracts and public
 adoption material. it does not replace those runtimes or copy their identities.
 
 ## contracts versus implementations
