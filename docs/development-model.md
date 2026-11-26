@@ -7,7 +7,7 @@ configures behavior without becoming another implementation fork.
 | place | purpose | contributor relationship |
 | --- | --- | --- |
 | private sources | implementation, experiments and source case decisions | maintainer and authorized source agents |
-| private aiki-preview | fresh reusable version, product context and feedback | read and discuss, no direct source writes |
+| private aiki-friends | fresh reusable version, product context and feedback | read and discuss, no direct source writes |
 | public aiki | selected stable modules, contracts and installation material | mit-scoped public distribution |
 
 ## keep ownership simple

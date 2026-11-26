@@ -52,3 +52,7 @@ personal preferences from transferable mechanisms. raw evidence stays with its
 owner. private development and preview/public delivery share one source, with a personal
 profile rather than another implementation fork. recipient access and future
 schedules require their own actual acceptance.
+
+for friends onboarding or a channel change, read `docs/friends.md`. preserve
+accepted installations and distinguish a recipe for their own implementation
+from delivery of an actual maintained runtime. verify access before redirecting.

@@ -21,7 +21,7 @@ their interaction preferences and risk choices configurable.
 
 ## one source, two delivery channels
 
-the private owning repositories are the development source. `aiki-preview` is a
+the private owning repositories are the development source. `aiki-friends` is a
 closed read-and-feedback distribution for admitted friends. public `aiki` receives
 selected stable modules and examples. the personal overlay configures behavior
 and authority without maintaining another code fork.
