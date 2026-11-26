@@ -28,5 +28,6 @@ recipient support.
 the working name is now aiki: your personal agi, a modular agent harness for your
 own life. the former pagi repository name redirects here. the
 [three-space development model](development-model.md) is documented.
-shared-lab access, personal-profile extraction and a weekly promotion service are
-not installed or authorized by that design alone.
+the adopted implementation uses private source development, a private read-and-feedback
+preview and public stable delivery. friend access awaits organization and identity
+readback. no weekly model or publication schedule is enabled.

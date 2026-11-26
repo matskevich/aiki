@@ -4,6 +4,11 @@
 
 a modular agent harness for your own life.
 
+agent context: [product](PRODUCT.md), [current scope](CURRENT.md), [roadmap](ROADMAP.md).
+this is a delivery of generic material owned at the private
+[agent-connectors source](https://github.com/matskevich/agent-connectors).
+preview and public versions share that source.
+
 aiki is a way to assemble a personal agent system around useful outcomes: find
 something in your messages, arrange a meeting, keep a task through a disconnect,
 or return with a verified result. start with one component and keep your current

@@ -16,6 +16,7 @@ jobs:
           python-version: '3.11'
       - run: python3 tools/catalog.py check
       - run: python3 tools/release_check.py
+      - run: python3 tools/release_manifest.py
       - run: python3 tools/secret_scan.py --download --history
       - run: python3 tools/catalog.py plan orchestration notifications
       - run: python3 -m unittest discover -s tests -v
