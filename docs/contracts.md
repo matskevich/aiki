@@ -25,7 +25,7 @@ and artifacts. a provider owns its sessions and domain action rules. a projectio
 owns mappings and delivery receipts. declare any exceptions in the installation.
 
 one record can reference another without importing its private contents. public
-examples use synthetic identifiers and `example.invalid` URLs.
+examples use synthetic identifiers and `example.invalid` urls.
 
 examples: [task](../examples/task.json), [handoff](../examples/handoff.json),
 [acceptance](../examples/acceptance.json).
